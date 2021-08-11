@@ -1,0 +1,87 @@
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+
+
+body{
+    background-image: url('/Images/fool.jpg');
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+
+   
+}
+.main{
+    text-align: center;
+    margin: 25px;
+    color: black;
+    font-style: italic;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border-radius: 25px 0px 25px 0px;
+    margin: 50px;
+    font-size: 30px;
+}
+.inner{
+    text-align: center;
+    font-style: italic;
+  
+}
+
+#search{
+    height: 35px;
+    width: 300px;
+    border-radius: 16px 0px;
+    outline: none;
+
+}
+
+ #submit{
+
+    color:#fff;
+    background-color: chartreuse;
+    padding: 5px;
+    width: 90px;
+    height: 30px;
+    border-radius: 16px 0px;
+    
+  }
+  #name{
+      color: black;
+      font-size: 50px;
+      font-weight: 100;
+      
+  }
+  #short{
+      color: white;
+      background-color: black;
+      font-size: 30px;
+      
+  }
+  #number{
+      font-size: 100px;
+      color: chartreuse;
+      background-color: #000;
+  
+      
+  }
+sup{
+    font-size: 55px;
+    color: black;
+   
+}
+
+h2{
+    color: #fff;
+    font-size: 30px;
+}
+.base h3{
+    color: white;
+    font-size: 30px;
+    background-color: #000;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 25px 0px 25px 0px;
+}

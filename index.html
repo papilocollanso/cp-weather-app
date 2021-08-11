@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <title>Weather</title>
+</head>
+<body>
+    <div id="container">
+        <h1 class="main">Simple Weather App</h1>
+        <div class="inner">
+            <div class="process">
+                <form >
+                    <input type="text" id="search" value="" placeholder="Search a city" >
+                    <button id="submit">Submit</button>
+                </form>
+            </div><br><br>
+
+        <div class="process1">
+            <span id="name">Paris </span> <span id="short">FR</span><br><br>
+            <span id="number">9</span> <sup>ºC</sup><br>
+           
+            <span class="base">
+               
+                <canvas id="icon1" width="128" height="128"></canvas>
+                <h3 id="desc">Light Intensity Drizzle</h3>
+            </span>
+           
+        </div>
+
+        </div>
+
+    </div>
+    <script src="app.js" type="text/javaScript"></script>
+    <script src="skycons.js" type="text/javaScript"></script>
+</body>
+</html>
